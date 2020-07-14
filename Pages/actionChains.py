@@ -4,8 +4,7 @@ from selenium.webdriver.common.keys import Keys
 
 class AC:
 
-    actions=ActionChains(wd)
-    def Se
+    actions=ActionChains()
     def login(self):
         wd.get(url[2])
         wd.maximize_window()
